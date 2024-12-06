@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2009-10-01-paper-title-number-1
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-07
+date: 2023-07-23
 venue: 'Findings of the Association for Computational Linguistics: ACL 2023'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://aclanthology.org/2023.findings-acl.871/'
