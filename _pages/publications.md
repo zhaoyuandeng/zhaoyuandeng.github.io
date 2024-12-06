@@ -5,52 +5,20 @@ permalink: /publications/
 author_profile: true
 ---
 
-[Journal Articles](#journal-articles)\
-[Conference Papers](#conference-papers)\
-[White Papers](#white-papers)\
-[Academic](#academic)\
-[Presentations](#presentations)
-
 {% if site.author.googlescholar %}
-  You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
+  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 {% endif %}
 
 {% include base_path %}
 
-## Journal Articles
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'journal' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+## Conference
+-----
+
+1. Todd Morrill, Zhaoyuan Deng, Yanda Chen, Amith Ananthram, Colin Wayne Leach, Kathleen McKeown, "**Social Orientation: A New Feature for Dialogue Analysis**", Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), 2024. [PDF](https://arxiv.org/pdf/2403.04770)
+2. Yilun Hua*, Zhaoyuan Deng*, Kathleen McKeown, "***Improving Long Dialogue Summarization with Semantic Graph Representation***", Findings of the Association for Computational Linguistics: ACL 2023 (ACL Findings 2023), 2023. [PDF](https://aclanthology.org/2023.findings-acl.871.pdf)
+3. Yilun Hua*, Zhaoyuan Deng*, Zhijie, "***AMRTVSumm: AMR-augmented Hierarchical Network for TV Transcript Summarization***", Proceedings of The Workshop on Automatic Summarization for Creative Writing (COLING2023 Workshop), 2023. [PDF](https://aclanthology.org/2022.creativesumm-1.6.pdf)
 
 
-## Conference Papers
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'conference' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-## White Papers
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'whitepaper' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-
-## Academic
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'academic' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-## Presentations
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'presentation' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+## Preprints
+Zhaoyuan Deng, Amith Ananthram, Kathleen McKeown, "***Enhancing Multimodal Affective Analysis with Learned Live Comment Features***", arXiv: 2410.16407, 2024. [PDF](https://arxiv.org/pdf/2410.16407)
 
